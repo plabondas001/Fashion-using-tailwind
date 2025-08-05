@@ -6,19 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fashion</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        .font-roboto {
+            font-family: "Roboto", sans-serif;
+        }
 
+        .font-bebas-neue {
+            font-family: "Bebas Neue", sans-serif;
+        }
+    </style>
 </head>
 
-<body>
+<body class="font-roboto">
     <header class="bg-orange-50 pl-4">
         <nav>
 
         </nav>
         <!-- banner style  -->
-        <div class="md:flex">
+        <div class="md:flex md:items-center md:justify-around">
             <div>
-                <h1 class="text-7xl uppercase"><span class="text-orange-300">Be the Penguins</span><br><span
-                        class="text-stone-900">of Winter</span></h1>
+                <h1 class="text-7xl uppercase"><span class="text-orange-300 font-bebas-neue">Be the Penguins</span><br><span
+                        class="text-stone-900 font-bebas-neue">of Winter</span></h1>
                 <p class="text-base font-light">Lorem Ipsum is simply dummy text of the printing <br> and typesetting
                     industry.</p>
                 <button
